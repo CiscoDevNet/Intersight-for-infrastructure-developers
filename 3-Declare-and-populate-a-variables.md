@@ -4,11 +4,15 @@ The Python Intersight SDK is available in the [Python Packaging Index](https://p
 
 > Be sure to running Python >= 3.6 as earlier versions of Python are not supported. Also, uninstall any conflicting versions of the SDK installed on your machine. You can check installed versions with the `pip list` command prior to running `pip install intersight`.
 
-`pip install intersight`
+```python
+pip install intersight
+```
 
 Running the command `pip list` all packages installed by `pip`. Run the command and scroll down to verify the `intersight` pack is installed.
 
-`pip list`
+```python
+pip list
+```
 
 <details><summary>Click here to see output</summary>
 <pre><code>
@@ -338,7 +342,9 @@ FILE
 
 In step 1, you retrieved your API key and secret key and in this step you apply those values while configuring a newly created API client. The command `help(intersight.Configuration)` displays information about the `Configuration` Python class and its usage.
 
-`help(intersight.Configuration)`
+```python
+help(intersight.Configuration)
+```
 
 <details><summary>Click here to see output</summary>
 <pre><code>
