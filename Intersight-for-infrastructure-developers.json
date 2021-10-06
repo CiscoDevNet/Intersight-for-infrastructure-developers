@@ -1,17 +1,25 @@
 {
-  "labId": "Intersight-for-infrastructure-developers",
-  "title": "Getting Inventory with Python",
-  "slug": "inventory",
-  "time": 15,
+  "labId": "intersight-get-physical-compute-inventory",
+  "title": "Getting Physical Compute Inventory from Intersight using the Cisco Intersight REST API with Python",
+  "slug": "This lab introduces how to retrieve a list of physical compute inventory from Intersight using the programmatic API",
+  "time": 30,
   "byod": true,
   "files": [
-    {"title": "Step 1: Lorem Ipsum Dolor",
-     "file":"1.md"},
-    {"title": "Step 2: The Next Step Title",
-     "file": "2.md"}
+    {"title": "Getting Physical Compute Inventory from Intersight using the Cisco Intersight REST API with Python",
+     "file":"1-Objectives.md"},
+    {"title": "Generate API key and Secret Key and import modules",
+     "file": "2-Generate-API-key-and-Secret Key-and-import-modules.md"},
+    {"title": "Declare and populate a variables",
+      "file": "3-Declare-and-populate-a-variables.md"},
+    {"title": "GET Physical Compute Summary",
+      "file": "4-GET-Physical-Compute-Summary.md"},
+    {"title": "Bringing it all together",
+      "file": "5-Bringing-it-all-together.md"}
   ],
   "tags": [
-	{"title": "Intersight inventory"}
+	{"title": "Intersight"},
+  {"title": "Data Center"},
+  {"title": "REST"}
   ],
   "related": [
   ],
